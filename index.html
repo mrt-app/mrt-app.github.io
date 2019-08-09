@@ -1,390 +1,202 @@
-<!doctype html>
-<html lang="en">
-<!--
-
-Page    : index / MobApp
-Version : 1.0
-Author  : Colorlib
-URI     : https://colorlib.com
-
- -->
-
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <title>神棚アプリ</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="title" content="神棚アプリ | iPhone Android用セルフコーチングアプリ">
-    <meta name="description" content="神棚アプリはあなたのスマートフォンに神棚をお祀りできるアプリです。">
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="神棚アプリ | iPhone Android用セルフコーチングアプリ"/>
-    <meta property="og:description" content="神棚アプリはあなたのスマートフォンに神棚をお祀りできるアプリです。" />
-    <meta property="og:image" content="/img/app_icon.png" />
-    <meta property="og:url" content="https://mrt-app.github.io/kamidana/" />
-    <meta property="og:site_name" content="神棚アプリ"/>
 
-    <!-- Font -->
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>mrt app - Smartphone applicatinos</title>
+	<meta name="description" content="mrt app's portfolios">
+	<meta name="author" content="mrt">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- Owl carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- Main css -->
-    <link href="css/style.css" rel="stylesheet">
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="30">
+<body>
 
-    <!-- Nav Menu -->
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-    <div class="nav-menu fixed-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html">mrt app</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                        <div class="collapse navbar-collapse" id="navbar">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#features">機能</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#media">ご利用者の声</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#gallery">ギャラリー</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#qa">よくある質問</a> </li>
-                                <li class="nav-item"><a href="#download" class="nav-link btn btn-outline-light my-3 my-sm-0 ml-lg-3">ダウンロード</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">mrt app</h1>
+            <h3>portfolio</h3>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
 
 
-    <header class="bg-gradient" id="home">
-        <div class="container mt-5">
-            <h1>神棚アプリ</h1>
-            <p class="tagline">毎日を楽しくするセルフコーチングアプリ</p>
-        </div>
-        <div class="img-holder mt-3"><img src="images/iphonex.png" alt="phone" class="img-fluid"></div>
-    </header>
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
 
-    <div class="my-5">
-        <div class="container text-center">
-            <div class="section-title">
-                <h3>あなたの心の拠り所</h3>
-            </div>
-            <p>神棚アプリはあなたのスマートフォンに神棚をお祀りできるアプリです。</p>
-            <p>かつて神棚は、大黒柱や台所、玄関、便所など、生活の要となるところへお祀りし、家や一緒に住む家族の精神の絆を大切にしてきました。</p>
-            <p>現代はスマートフォンが生活の要で、人との関わりもオンラインが多くなっています。</p>
-            <p>そんな今こそ、モバイルデバイスに神様をお祀りしてはいかがでしょうか。</p>
-        </div>
-    </div>
+      <div class="row">
 
-    <div class="section light-bg" id="features">
+         <div class="three columns">
 
-        <div class="container">
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
 
-            <div class="section-title">
-                <small>あなたのスマホに神棚を。</small>
-                <h3>アプリの特徴</h3>
-            </div>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>神棚アプリなどの開発・制作を行っています。
+            </p>
 
             <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-pencil-alt gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">日記</h4>
-                                    <p class="card-text">今日一日の感謝の気持ちは、日記にして神様に伝えることができます。<br>画面ロック機能付きで安心に使えます。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-heart gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">お祓い</h4>
-                                    <p class="card-text">今日どうしても辛いことがあったなら、人形代に書いて流すこともできます。一度手放したものは消えてなくなります。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-star gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">願い事</h4>
-                                    <p class="card-text">お願い事を絵馬にして願う事ができます。<br>成功に自信付くとともに、周囲への感謝の気持ちに気付くでしょう。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+               <div class="columns contact-details">
+
+                  <h2>Blog</h2>
+                  <p class="address">
+						   <a href="https://another-mrt.blogspot.com/">mrt app</a>
+					   </p>
+
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
 
 
-            <div class="row mt-3">
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
 
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-archive gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">お供え物</h4>
-                                    <p class="card-text">ワンタップで簡単。通知機能で忘れることもありません。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- portfolio
+      ----------------------------------------------- -->
+      <div class="row portfolio">
 
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-map gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">おみくじ</h4>
-                                    <p class="card-text">一日一回、今日の運勢を占います。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-hand-point-up gradient-fill ti-3x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">格言</h4>
-                                    <p class="card-text">今日一日を勇気付ける心強い言葉が入っています。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+         <div class="three columns header-col">
+            <h1><span>portfolio</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>神棚アプリ</h3>
+                  <p class="info">Android/iOS</p>
+                  <p>累計60,000ダウンロードを突破したセルフコーチングアプリ</p>
+                  <p><a href="https://github.com/mrt-app/kamidana">神棚アプリ</a></p>
+
+               </div>
 
             </div>
 
-        </div>
+            <div class="row item">
 
+               <div class="twelve columns">
 
+                  <h3>スマホでキャンドル</h3>
+                  <p class="info">Android<span></p>
+                  <p>ロウソクのような光の揺らぎをスマートフォンでも楽しめるアプリ</p>
+                  <p><a href="https://play.google.com/store/apps/details?id=another.mrt.gmail.com.likeacandle">光と音で癒されるスマホでキャンドル</a></p>
 
-    </div>
-    <!-- // end .section -->
-
-    <div class="section">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-6">
-                    <div class="box-icon"><span class="ti-gift gradient-fill ti-3x"></span></div>
-                    <h2>裏庭</h2>
-                    <p class="mb-4">裏庭へ行くとお狐さまがいます。そこでは鈴やお守りを受け取ることができ、またそれをお狐さまにあげることができます。</p>
-                </div>
-            </div>
-            <div class="perspective-phone">
-                <img src="images/perspective.png" alt="perspective phone" class="img-fluid">
-            </div>
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-    <div class="section light-bg">
-
-        <div class="container">
-            <div class="section-title">
-                    <small>とてもシンプル。</small>
-                    <h3>アプリの使い方</h3>
-            </div>
-
-            <div class="row">    
-                <div class="col-md-8 d-flex align-items-center">
-                    <ul class="list-unstyled ui-steps">
-                        <li class="media">
-                            <div class="circle-icon mr-4">1</div>
-                            <div class="media-body">
-                                <h5>お参りをする</h5>
-                                <p>神棚のお宮の中にあなたの大切な神様をお祀りください。<br>朝は神様にご挨拶し、夜にお礼を伝えましょう。</p>
-                            </div>
-                        </li>
-                        <li class="media my-4">
-                            <div class="circle-icon mr-4">2</div>
-                            <div class="media-body">
-                                <h5>良いことを集中する</h5>
-                                <p>一日の終りに感謝の気持ちや気づきを日記に記していきましょう。<br>今日も明日もより良くなりますように。</p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="circle-icon mr-4">3</div>
-                            <div class="media-body">
-                                <h5>行動をする</h5>
-                                <p>神様は見守ってくださいます。</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/iphonex.png" alt="iphone" class="img-fluid">
-                </div>
+               </div>
 
             </div>
 
-        </div>
+            <div class="row item">
 
-    </div>
-    <!-- // end .section -->
+               <div class="twelve columns">
 
-    <div class="section" id="media">
-        <div class="container">
-            <div class="section-title">
-                <small>Special Thanks</small>
-                <h3>ご利用者の声</h3>
-            </div>
+                  <h3>写真用露出計 -Light Meter-</h3>
+                  <p class="info">Android<span></p>
+                  <p>シンプルで使いやすい写真用露出計</p>
+                  <p><a href="https://play.google.com/store/apps/details?id=com.gmail.mrt.another.lightmeter">写真用露出計 -Light Meter-</a></p>
 
-            <div class="testimonials owl-carousel">
-                <div class="testimonials-single">
-                  <span class="ti-comment-alt gradient-fill ti-3x client-img"></span>
-                  <blockquote class="blockquote my-3" cite="https://app.dcm-gate.com/app_review/007e200/">”毎日の良いことを見返すだけで、なんだか心が穏やかな気持ちなりますね♪”</blockquote>
-                  <p><small>from 神棚アプリ | NTTドコモ dアプリ＆レビュー</small></p>
-                </div>
-                <div class="testimonials-single">
-                  <span class="ti-comment-alt gradient-fill ti-3x client-img"></span>
-                  <blockquote class="blockquote my-3" cite="https://play.google.com/store/apps/details?id=com.gmail.mrt.another&hl=ja">"小さな成功を積み重ねることで大きな成功を手に入れる成功体験の理論に基づいています。"</blockquote>
-                  <p><small>by キートンタイチ from Google Play</small></p>
-                </div>
-                <div class="testimonials-single">
-                  <span class="ti-comment-alt gradient-fill ti-3x client-img"></span>
-                  <blockquote class="blockquote my-3" cite="https://play.google.com/store/apps/details?id=com.gmail.mrt.another&hl=ja">"いつの間にか自分にとって、なくてはならない大切なアプリに。"</blockquote>
-                  <p><small>by 篠崎かん from Google Play</small></p>
-                </div>
-                <div class="testimonials-single">
-                  <span class="ti-comment-alt gradient-fill ti-3x client-img"></span>
-                  <blockquote class="blockquote my-3" cite="https://play.google.com/store/apps/details?id=com.gmail.mrt.another&hl=ja">"当方、仏教の僧籍に在る身ながら、毎日たのしく拝見しております。"</blockquote>
-                  <p><small>by Malte阿企羅 from Google Play</small></p>
-                </div>
+               </div>
 
             </div>
 
-        </div>
+         </div> <!-- main-col end -->
 
-    </div>
-    <!-- // end .section -->
+      </div> <!-- End Education -->
 
-
-    <div class="section light-bg" id="gallery">
-        <div class="container">
-            <div class="section-title">
-                <small>ギャラリー</small>
-                <h3>スクリーンショット</h3>
-            </div>
-
-            <div class="img-gallery owl-carousel owl-theme">
-                <img src="images/screen1.png" alt="image">
-                <img src="images/screen2.png" alt="image">
-                <img src="images/screen3.png" alt="image">
-                <img src="images/screen4.png" alt="image">
-            </div>
-
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-    <div class="section pt-0" id="qa">
-        <div class="container">
-            <div class="section-title">
-                <small>FAQ</small>
-                <h3>よくある質問</h3>
-            </div>
-
-            <div class="row pt-4">
-                <div class="col-md-6">
-                    <h4 class="mb-3">神棚のお宮は選べますか？</h4>
-                    <p class="light-font mb-5">一社宮、稲荷社、稲荷社(朱)、大黒宮、箱宮などから好きなお宮を選び、表示することができます。</p>
-                    <h4 class="mb-3">灯籠はいつ表示されますか？</h4>
-                    <p class="light-font mb-5">毎日お参りを続けると、あるとき一日表示されます。夜には明かりが灯ります。</p>
-
-                </div>
-                <div class="col-md-6">
-                    <h4 class="mb-3">裏庭はどう表示するのですか？</h4>
-                    <p class="light-font mb-5">設定画面にて「裏庭へ行く」をONにすると、メニューに裏庭が追加表示されます。</p>
-                    <h4 class="mb-3">機種変する時はどうすれば良いですか？(Android)</h4>
-                    <p class="light-font mb-5">ウィジェットをご利用の場合はバックアップ機能をご利用下さい。</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- // end .section -->
+   </section> <!-- Resume Section End-->
 
 
+   <!-- footer
+   ================================================== -->
+   <footer>
 
-    <div class="section bg-gradient-vertical" id="download">
-        <div class="container">
-            <div class="call-to-action">
+      <div class="row">
 
-                <div><img src="images/app_icon.png" alt="app" class="box-icon"></div>
-                <h2>ダウンロードはこちらから</h2>
-                <p class="tagline">お手持ちのiPhoneやAndroidで今すぐインストール。<br>無料で課金もありません。</p>
-                <div class="my-4">
+         <div class="twelve columns">
 
-                    <a href="https://itunes.apple.com/jp/app/%E7%A5%9E%E6%A3%9A%E3%82%A2%E3%83%97%E3%83%AA/id1231920500?mt=8" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a>
-                    <a href="https://play.google.com/store/apps/details?id=com.gmail.mrt.another" class="btn btn-light"><img src="images/playicon.png" alt="icon"> Google play</a>
-                </div>
-            </div>
-        </div>
+            <ul class="social-links">
+               <li><a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fmrt-app.github.io/"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="http://twitter.com/share?url=https%3A%2F%2Fmrt-app.github.io/"><i class="fa fa-twitter"></i></a></li>
+            </ul>
 
-    </div>
-    <!-- // end .section -->
+            <ul class="copyright">
+               <li>&copy; Copyright 2012 mrt</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
 
-    <div class="light-bg py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 text-center text-lg-left">
-                    <p class="mb-2">神棚アプリは、人生を前向きにするためのお手伝いをするというコンセプトに基づいて開発しています。<br>神棚にまつわる習慣のうち、神という概念を通じたセルフコーチングによって自ら望みを叶えていく仕組みをアプリの機能へ活かしています。</p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="social-icons">
-                        <a href="http://twitter.com/share?url=https%3A%2F%2Fmrt-app.github.io/kamidana/"><span class="ti-facebook"></span></a>
-                        <a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fmrt-app.github.io/kamidana/"><span class="ti-twitter-alt"></span></a>
-                        <a href="http://line.me/R/msg/text/?https%3A%2F%2Fmrt-app.github.io/kamidana/"><span class="ti-comment"></span></a>
-                    </div>
-                </div>
-            </div>
+         </div>
 
-        </div>
-    </div>
-    <!-- // end .section -->
-    <footer class="my-5 text-center">
-        <!-- Copyright removal is not prohibited! -->
-        <p class="mb-2"><small>COPYRIGHT © mrt 2017. ALL RIGHTS RESERVED. BY <a href="https://another-mrt.blogspot.com/">mrt app</a></small></p>
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
-    </footer>
+      </div>
 
-    <!-- jQuery and Bootstrap -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- Plugins JS -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/script.js"></script>
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
 
