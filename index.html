@@ -1,204 +1,145 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="ja">
 <head>
-
-   <!--- Basic Page Needs
-   ================================================== -->
    <meta charset="utf-8">
-	<title>mrt app - Smartphone applicatinos</title>
+	<title>mrt app's portfolios</title>
 	<meta name="description" content="mrt app's portfolios">
 	<meta name="author" content="mrt">
-
-   <!-- Mobile Specific Metas
-   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">mrt app</h1>
-            <h3>portfolio</h3>
-         </div>
+   <header>
+      <div id="header-image">
+         <div class="contents">
+            <div>
+               <h1>MRT APP</h1>
+               <p class="text">Hello, My name is Toshiharu Morita. <br/>I'm Software Developer in Japan.</p>
+            </div>
+          </div>
       </div>
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
+   </header> 
 
-   </header> <!-- Header End -->
+   <section class="mt-1 mb-1">
+      <div class="container">
+         <h2 id="portfolio">Portfolio</h2>
 
+         <div class="row">
+            <div class="col-sm-4">
+               <div class="card">
+                  <img class="card-img-top" src="images/kamidana.png" alt="app icon">
+                  <div class="card-body">
+                    <h5 class="card-title">iShrine(神棚アプリ)</h5>
+                    <p>
+                       <span class="badge badge-pill badge-info">iOS</span>
+                       <span class="badge badge-pill badge-info">Android</span>
+                    </p>
+                    <p class="card-text">The iShrine is a new style of Shintoshelf.</p>
+                    <a href="https://mrt-app.github.io/kamidana/" class="btn btn-primary">Go website</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="card">
+                  <img class="card-img-top" src="images/likeacandle.png" alt="app icon">
+                  <div class="card-body">
+                    <h5 class="card-title">Nature Sound Candle</h5>
+                    <p>
+                     <span class="badge badge-pill badge-info">Android</span>
+                    </p>
+                    <p class="card-text">Screen with light flickering like a candle. and you can relax with the sound of nature.</p>
+                    <a href="https://play.google.com/store/apps/details?id=another.mrt.gmail.com.likeacandle" class="btn btn-primary">Go Google Play Page</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="card">
+                  <img class="card-img-top" src="images/evolutiontodo.png" alt="app icon">
+                  <div class="card-body">
+                    <h5 class="card-title">Evolution TODO</h5>
+                    <p>
+                     <span class="badge badge-pill badge-info">iOS</span>
+                    </p>
+                    <p class="card-text">TODO app to manage quitting.</p>
+                    <a href="https://apps.apple.com/jp/app/evolution-todo/id1493318334" class="btn btn-primary">Go iTunes</a>
+                  </div>
+                </div>
 
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
+            </div>
+        </div>
 
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>個人で開発・制作を行っています。下記対応可能です。<br>
-            Android(Java/Kotlin), iOS(Swift), Rails, PHP(laravel, cakePHP), Vue, JQuery, MySQL, オンプレ, 決済システム導入, 企画, 要件定義, 設計, 簡単なデザイン, イラスト、などなど。
-            </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Blog</h2>
-                  <p class="address">
-						   <a href="https://another-mrt.blogspot.com/">mrt app</a>
-					   </p>
-
+        <div class="row">
+         <div class="col-sm-4">
+            <div class="card">
+               <img class="card-img-top" src="images/lightmeter.webp" alt="app icon">
+               <div class="card-body">
+                 <h5 class="card-title">Light meter</h5>
+                 <p>
+                  <span class="badge badge-pill badge-info">Android</span>
+                 </p>
+                 <p class="card-text">This is a photographic exposure meter to know the f-number and shutter speed easily.</p>
+                 <a href="https://play.google.com/store/apps/details?id=com.gmail.mrt.another.lightmeter" class="btn btn-primary">Go Google Play Page</a>
                </div>
+             </div>
+         </div>
+         <div class="col-sm-4">
+            <div class="card">
+               <img class="card-img-top" src="images/onworkspace.png" alt="corp logo">
+               <div class="card-body">
+                 <h5 class="card-title">onWorkSpace</h5>
+                 <p>
+                    <span class="badge badge-pill badge-info">Web</span>
+                 </p>
+                 <p class="card-text">Rental address and mail transfer service.</p>
+                 <a href="https://ows.onrealize.com/service" class="btn btn-primary">Go website</a>
+               </div>
+             </div>
+         </div>
+         <div class="col-sm-4">
+            <div class="card">
+               <img class="card-img-top" src="images/private.png" alt="app icon">
+               <div class="card-body">
+                 <h5 class="card-title">private</h5>
+                 <p>
+                  <span class="badge badge-pill badge-info">Web</span>
+                 </p>
+                 <p class="card-text">Private development projects</p>
+               </div>
+             </div>
+         </div>
+     </div>
 
-            </div> <!-- end row -->
+   </section>
 
-         </div> <!-- end .main-col -->
 
+   <section id="photo-image">
+      <div class="contents">
+         <div>
+            <h1 class="title">Photography</h1>
+            <p class="text">I'm also amateur photographer.</p>
+            <a href="http://500px.com/Haru_M" class="btn btn-primary">Go 500px portfolio page</a>
+         </div>
+       </div>
+   </section>
+
+
+   <footer class="mt-1 mb-1">
+      <div class="contents">
+         <p class="px-2">Share</p>
+         <p class="px-2">
+            <a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fmrt-app.github.io/" class="badge badge-secondary">facebook</a>
+            <a href="http://twitter.com/share?url=https%3A%2F%2Fmrt-app.github.io/" class="badge badge-secondary">twitter</a>   
+         </p>
+   
+         <p class="text-center">
+            &copy; Copyright 2012 mrt
+         </p>
       </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- portfolio
-      ----------------------------------------------- -->
-      <div class="row portfolio">
-
-         <div class="three columns header-col">
-            <h1><span>portfolio</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>神棚アプリ</h3>
-                  <p class="info">Android/iOS</p>
-                  <p>累計60,000ダウンロードを突破したセルフコーチングアプリ</p>
-                  <p><a href="https://mrt-app.github.io/kamidana/">神棚アプリ</a></p>
-
-               </div>
-
-            </div>
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>スマホでキャンドル</h3>
-                  <p class="info">Android<span></p>
-                  <p>ロウソクのような光の揺らぎをスマートフォンでも楽しめるアプリ</p>
-                  <p><a href="https://play.google.com/store/apps/details?id=another.mrt.gmail.com.likeacandle">光と音で癒されるスマホでキャンドル</a></p>
-
-               </div>
-
-            </div>
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>写真用露出計 -Light Meter-</h3>
-                  <p class="info">Android<span></p>
-                  <p>シンプルで使いやすい写真用露出計</p>
-                  <p><a href="https://play.google.com/store/apps/details?id=com.gmail.mrt.another.lightmeter">写真用露出計 -Light Meter-</a></p>
-
-               </div>
-
-            </div>
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fmrt-app.github.io/"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="http://twitter.com/share?url=https%3A%2F%2Fmrt-app.github.io/"><i class="fa fa-twitter"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2012 mrt</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
+   </footer>
 </body>
 
 </html>
