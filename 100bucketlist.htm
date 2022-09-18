@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="mrt">
+
+    <title>100 Bucket list iOS/Android app</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <style type="text/css">
+        * {
+            font-family: "Noto Sans JP"; 
+        }
+        #top-image {
+            background-image: url(images/focus-image.webp);
+            background-color:rgba(255,255,255,0.5);
+            background-blend-mode:luminosity;
+            aspect-ratio: 21 / 9;
+            width:100%;
+            background-size:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #top-image>div {
+            text-align: center;
+            font-family: "Sawarabi Gothic";
+        }
+
+        #top-image>div>h1 {
+            color: #fff;
+            font-weight: lighter;
+            font-size: 5vw;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 1.0);
+        }
+        #top-image>div>p {
+            color: #fff;
+            font-size: 1.5vw;
+            font-weight: lighter;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.0);
+        }
+        #description img {
+            height:40vh;
+            box-shadow: 15px 15px 0px 0 rgb(245, 245, 245);
+        }
+        footer {
+            background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+        }
+
+    </style>
+    </head>
+    <body>
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/100bucketlist.png" alt="" width="30" height="30" class="d-inline-block align-top">
+                    100 Bucket list
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#download">Download</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+         <div class="container-fluid my-5 pb-5" id="description">
+            <h2>たった一度の人生をより良く生きたいあなたのためのアプリです。</h2>
+
+            <div class="row my-5 mx-5 my-2 align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="images/100bucketlist-graph.webp" class="img-thumbnail img-fluid" alt="">
+                </div>
+                <div class="col-md-6 my-2">
+                    <p>100 Bucket listは、死ぬまでに体験したいことをリスト化し、それらの実現を支援するアプリです。</p>
+                    <p>やりたいことをリスト化して管理するだけでなく、人生の残り時間を計算して可視化し、今最優先で取り組むべきことを３つに絞って集中させることができます。</p>
+                    <p>取り組みは振り返りメモに記録することができ、その進捗はグラフで可視化することもできます。</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="container-fluid my-5 pb-5" id="features">
+            <h2>主な機能</h2>
+            <div class="card my-3">
+              <div class="card-body">
+                <h4 class="card-title"><i class="bi bi-calendar-range"></i> 人生の残りカレンダー</h4>
+                <p class="card-text">80歳まで生きるとしたら、人生はわずか4000週間しかありません。残された人生の時間を可視化します。</p>
+              </div>
+            </div>
+
+            <div class="card my-3">
+              <div class="card-body">
+                <h4 class="card-title"><i class="bi bi-list-check"></i> Bucket List</h4>
+                <p class="card-text">やりたいことをリストに登録し、管理することができます。</p>
+              </div>
+            </div>
+
+            <div class="card my-3">
+              <div class="card-body">
+                <h4 class="card-title"><i class="bi bi-hand-index"></i> 必達を決める</h4>
+                <p class="card-text">多忙を極める成功者は数あるリストから優先順位を決め、上位３つ以外は絶対にやらないと言われています。アプリでは３つの必達を選択できます。</p>
+              </div>
+            </div>
+
+            <div class="card my-3">
+              <div class="card-body">
+                <h4 class="card-title"><i class="bi bi-pencil-square"></i> 振り返りの記録を残す</h4>
+                <p class="card-text">Bucket listに登録した内容から活動記録を残すことができます。</p>
+              </div>
+            </div>
+
+            <div class="card my-3">
+              <div class="card-body">
+                <h4 class="card-title"><i class="bi bi-graph-up"></i> 取り組みを客観視する</h4>
+                <p class="card-text">過去一ヶ月以内の活動記録を可視化します。</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="container-fluid mb-3 pb-5" id="download">
+            <h2>ダウンロードはこちらから</h2>
+            <div class="text-center my-5">
+                <a href="https://apps.apple.com/jp/app/fo-cus/id1568055889" class="btn　btn-dark btn-lg"><img src="images/appleicon.png" alt="icon"> App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.gmail.mrt.another.focus" class="btn　btn-dark btn-lg"><img src="images/playicon.png" alt="icon"> Google play</a>
+            </div>  
+          </div>
+
+          <footer>
+			<div class="container pt-5 mt-5 mb-0">
+				<div class="row">
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-uppercase mb-20">その他のアプリ</h6>
+							<ul class="footer-nav">
+								<li><a href="https://mrt-app.github.io/kamidana/">神棚アプリ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-uppercase mb-20">ページ内のご案内
+							</h6>
+							<ul class="footer-nav">
+								<li><a href="#">ホーム</a></li>
+								<li><a href="#features">機能</a></li>
+								<li><a href="#download">ダウンロード</a></li>
+								<li><a href="focus_privacy.htm">プライバシーポリシー</a></li>
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-footer-widget">
+							<h6 class="text-uppercase mb-20">製作者情報</h6>
+							<p>
+								<a href="https://mrt-app.github.io/">ポートフォリオサイト</a>へ
+							</p>
+							<div class="d-flex">
+								<a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fmrt-app.github.io/focus.htm"><i class="bi bi-facebook m-1"></i></a>
+								<a href="http://twitter.com/share?url=https%3A%2F%2Fmrt-app.github.io/focus.htm"><i class="bi bi-twitter m-1"></i></a>
+								<a href="http://line.me/R/msg/text/?https%3A%2F%2Fmrt-app.github.io/focus.htm"><i class="bi bi-comment m-1"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<p class="footer-text m-3">Copyright &copy; All rights reserved</p>
+				</div>
+			</div>
+		</footer>
+    
+    </body>
+</html>
